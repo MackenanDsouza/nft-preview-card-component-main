@@ -50,9 +50,7 @@ main{
     &-img-wrapper{
         position:relative;
 
-        :hover .card__img-overlay{
-            opacity:1;
-        }
+       
     }
 
 
@@ -67,7 +65,7 @@ main{
     }
     &__img-overlay{
         
-        background-color: $cyan;
+        background-color: hsl(178, 100%, 50%, 0.5);
         border-radius:0.625rem;
         position:absolute;
         top:0;
@@ -85,6 +83,12 @@ main{
         img{
             width:15%;
             height:15%;
+            
+        }
+
+        &:hover{
+            
+                opacity:1;
             
         }
 
